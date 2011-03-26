@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package utilidades;
 public class Arreglos{
 
     public static void swap(int[] a, int i, int j){
@@ -43,25 +43,4 @@ public class Arreglos{
 
     }
 
-    public static void main (String [] args)
-    {
-        int[] a = {1,2,3,4,5};
-        swap(a, 1, 3);
-        System.out.println(Arrays.toString(a));
-        shuffle(a);
-        System.out.println(Arrays.toString(a));
-        shuffle(a);
-        System.out.println(Arrays.toString(a));
-        shuffle(a);
-        System.out.println(Arrays.toString(a));
-        int[] b = {5,4,3,2,1,0};
-        sort(b);
-        System.out.println(Arrays.toString(b));
-        System.out.println(search(new int[]{1,2,3,4}, 3));
-        System.out.println(search(new int[]{1,2,3,4}, 2));
-        System.out.println(search(new int[]{1,2,3,4,5}, 3));
-        System.out.println(search(new int[]{1,2,3,4,5}, 5));
-        System.out.println(search(new int[]{1,2,3,4,5}, 1));
-        System.out.println(search(new int[]{1,2,3,4,5}, 8));
-    }
 } 
